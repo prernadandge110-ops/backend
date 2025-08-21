@@ -4,7 +4,7 @@ const { default: mongoose } = require('mongoose');
 const app = express();
 
 app.use(express.json());
-mongoose.connect('mongodb://localhost:27017').then(() => console.log("connected"));
+mongoose.connect('mongodb+srv://prernadandge110:JUCUnx0cdy3yptI0@cluster0.o6uw4ta.mongodb.net/').then(() => console.log("connected"));
 
 const userschema = mongoose.Schema(
     {
